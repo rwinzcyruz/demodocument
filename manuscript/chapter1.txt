@@ -1,0 +1,6 @@
+# Note
+- __HGA__ = Hybrid Genetic Algorithm atau juga sering disebut __MAGA__
+  (Multi Agent Genetic Algorithm)
+- __GA__ = Genetic Algorithm
+- Jawabnya langsung saja disini
+- Daftarkan setiap sumber referensi pada daftar pustaka dibawah

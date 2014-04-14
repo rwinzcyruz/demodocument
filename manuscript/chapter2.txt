@@ -1,0 +1,39 @@
+# Landasan Teori
+- Apa itu __HGA__?
+- Bagaimana sejarah perkembangannya?
+- Apa yang menjadi latar belakang munculnya algoritma tersebut? apa teori yang
+  melatarbelakangi ide munculnya algoritma ini?
+- Apa yang membedakan __GA__ dengan __HGA__?
+- Apa saja masalah yang dapat disolusikan oleh __HGA__?
+- Pada sektor ada __HGA__ diaplikasikan pada dunia nyata?
+- Apa saja masalah yang lebih tepat diselesaikan oleh __HGA__ daripada __GA__?
+
+# Analis
+- Bagaimana cara kerja __HGA__? Bagaimana performasinya dan penggunaan
+  memorinya?
+
+  jika kita menggunakan GA, solusi yang memungkinkan sering sekali tidak ada habisnya, selalu terdapat kemungkinan bahwa ada solusi yang lebih optimal berada pada suatu tempat tertentu. dengan menggunakan HGA, maka ruang pencarian yang dilakukan akan dibatasi, sehingga kita hanya perlu menjalankan GA sebanyak yang kita perlukan saja untuk mendapatkan semua area yang optimal.
+
+  jika kita telah mengetahui bagaimana bentuk pencarian yang akan dilakukan, kita dapat memperkirakan berapa lokasi pencarian yang akan kita lakukan. Kemudian kita dapat menjalankan GA berulang-ulang hingga semua lokasi tersebut didapatkan.
+
+  Namun sering kali bentuk pencarian yang akan dilakukan tidak kita ketahui, dalam kasus ini maka yang perlu kita lakukan adalah mengulang GA sampai solusi yang didapatkan mulai terdapat pengulangan.
+
+- Bagaimana cara penerapan __HGA__ untuk mensolusikan masalah- masalah yang
+  ada?
+- Jelaskan secara detail apa yang menjadi kelebihan __HGA__ dibandingkan
+  dengan __GA__?
+- Jelaskan secara detail apa yang menjadi kekurangan __HGA__ dibandingkan
+  dengan __GA__?
+- Tunjukkan salah satu simulasi penerapan __HGA__? kalau ada GIF-nya lebih
+  bagus.
+
+# Kesimpulan
+- Di kondisi apa dan pada kebutuhan apa __HGA__ lebih unggul dibandingkan
+  dengan __GA__?
+- Di kondisi apa dan pada kebutuhan apa __HGA__ lebih buruk dibandingkan
+  dengan __GA__? (lebih buruk di sini maksudnya kurang cocok atau tidak
+  berfungsi secara optimal)
+
+# Daftar Pustaka
+
+http://www.cimms.ou.edu/~lakshman/Papers/ga/node8.html
