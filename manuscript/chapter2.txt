@@ -1,39 +1,108 @@
-# Landasan Teori
-- Apa itu __HGA__?
-- Bagaimana sejarah perkembangannya?
-- Apa yang menjadi latar belakang munculnya algoritma tersebut? apa teori yang
-  melatarbelakangi ide munculnya algoritma ini?
-- Apa yang membedakan __GA__ dengan __HGA__?
-- Apa saja masalah yang dapat disolusikan oleh __HGA__?
-- Pada sektor ada __HGA__ diaplikasikan pada dunia nyata?
-- Apa saja masalah yang lebih tepat diselesaikan oleh __HGA__ daripada __GA__?
+# ANALISIS DAN PERANCANGAN
 
-# Analis
-- Bagaimana cara kerja __HGA__? Bagaimana performasinya dan penggunaan
-  memorinya?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-  jika kita menggunakan GA, solusi yang memungkinkan sering sekali tidak ada habisnya, selalu terdapat kemungkinan bahwa ada solusi yang lebih optimal berada pada suatu tempat tertentu. dengan menggunakan HGA, maka ruang pencarian yang dilakukan akan dibatasi, sehingga kita hanya perlu menjalankan GA sebanyak yang kita perlukan saja untuk mendapatkan semua area yang optimal.
+## Analisis Sistem
 
-  jika kita telah mengetahui bagaimana bentuk pencarian yang akan dilakukan, kita dapat memperkirakan berapa lokasi pencarian yang akan kita lakukan. Kemudian kita dapat menjalankan GA berulang-ulang hingga semua lokasi tersebut didapatkan.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-  Namun sering kali bentuk pencarian yang akan dilakukan tidak kita ketahui, dalam kasus ini maka yang perlu kita lakukan adalah mengulang GA sampai solusi yang didapatkan mulai terdapat pengulangan.
+### Kebutuhan Fungsional
 
-- Bagaimana cara penerapan __HGA__ untuk mensolusikan masalah- masalah yang
-  ada?
-- Jelaskan secara detail apa yang menjadi kelebihan __HGA__ dibandingkan
-  dengan __GA__?
-- Jelaskan secara detail apa yang menjadi kekurangan __HGA__ dibandingkan
-  dengan __GA__?
-- Tunjukkan salah satu simulasi penerapan __HGA__? kalau ada GIF-nya lebih
-  bagus.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-# Kesimpulan
-- Di kondisi apa dan pada kebutuhan apa __HGA__ lebih unggul dibandingkan
-  dengan __GA__?
-- Di kondisi apa dan pada kebutuhan apa __HGA__ lebih buruk dibandingkan
-  dengan __GA__? (lebih buruk di sini maksudnya kurang cocok atau tidak
-  berfungsi secara optimal)
+<<(code/helloworld.py)
 
-# Daftar Pustaka
+### Kebutuhan Non Fungsional
 
-http://www.cimms.ou.edu/~lakshman/Papers/ga/node8.html
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  var manusia = {
+    kepala: 1,
+    mata: 2,
+    telinga: 2
+  }
+
+this is a php code `<?php echo "hello world"; ?>`.
+
+~~~
+var pesawat = {
+  setSayap: function (n) {
+    this.sayap = n;
+    return this;
+  },
+  setRoda: function (n) {
+    this.roda = n;
+    return this;
+  },
+  setPenumpang: function (n) {
+    this.penumpang = n;
+    return this;
+  },
+  lepasLandas: function () {
+    console.log("Pesawat berisi " + this.penumpang + " orang!");
+    console.log("Pesawat memiliki " + this.sayap + " buah sayap!");
+    console.log("Pesawat memiliki " + this.roda + " buah roda!");
+    console.log("Pesawat lepas landas!");
+  }
+};
+~~~
+
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+- quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+- consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+- cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+- proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+## Perancangan Sistem
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Arsitektur Sistem
+
+#### Arsitektur Dasar Sistem
+
+* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+* tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+* quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+#### Arsitektur Lanjutan Sistem
+
+* consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+* cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+* proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Arsitektur Basis Data
+
++ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
++ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
++ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
++ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
++ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
++ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
