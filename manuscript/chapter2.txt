@@ -1,3 +1,5 @@
+-# BAB 2 ANALISIS DAN PERANCANGAN
+
 # ANALISIS DAN PERANCANGAN
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -5,16 +7,19 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+proident, sunt in culpa qui officia deserunt mollit anim[^anim] id est laborum.
+
+[^anim]: animation
 
 ## Analisis Sistem
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+*Lorem* ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+quis **nostrud** exercitation __ullamco laboris__ nisi ut aliquip ex ea commodo
+consequat. Duis _aute_irure_ dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+proident, sunt in culpa qui __[officia](https://www.google.com)__ deserunt
+mollit anim id est laborum.
 
 ### Kebutuhan Fungsional
 
@@ -36,11 +41,11 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-  var manusia = {
-    kepala: 1,
-    mata: 2,
-    telinga: 2
-  }
+    var manusia = {
+      kepala: 1,
+      mata: 2,
+      telinga: 2
+    }
 
 this is a php code `<?php echo "hello world"; ?>`.
 
